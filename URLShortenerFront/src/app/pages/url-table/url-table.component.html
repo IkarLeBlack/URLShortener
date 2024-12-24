@@ -1,0 +1,33 @@
+<div class="urls-table-container">
+  <h2>Short URLs Table</h2>
+  <button class="btn btn-info" (click)="onGoToAlgorithmPage()">About view</button>
+  <button *ngIf="isAuthorized" class="btn btn-success" (click)="onAddUrl()">
+    Add New URL
+  </button>
+
+  <table class="table">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>Original URL</th>
+      <th>Short URL</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let url of urls; let i = index">
+      <td>{{ i + 1 }}</td>
+      <td>{{ url.originalUrl }}</td>
+      <td>
+        <a [href]="url.shortUrl" target="_blank">{{ url.shortUrl }}</a>
+      </td>
+      <td>
+        <button *ngIf="isAuth()" class="btn btn-info" (click)="onViewDetails(url.id)">View</button>
+        <button *ngIf="canDelete(url)" class="btn btn-danger" (click)="onDelete(url.id)">
+          Delete
+        </button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

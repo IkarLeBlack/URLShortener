@@ -1,0 +1,10 @@
+<div class="about-container">
+  <h2>About</h2>
+  <p>{{ aboutText }}</p>
+  <div *ngIf="isAdmin">
+    <textarea [(ngModel)]="aboutText" rows="5" class="form-control"></textarea>
+    <button class="btn btn-primary" (click)="onSave()">Save</button>
+  </div>
+
+  <p *ngIf="!isAdmin">Admins can edit this description.</p>
+</div>

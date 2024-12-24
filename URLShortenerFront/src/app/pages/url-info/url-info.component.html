@@ -1,0 +1,8 @@
+<div class="url-info-container">
+  <h2>URL Information</h2>
+  <p><strong>Original URL:</strong> {{ urlInfo.originalUrl }}</p>
+  <p><strong>Short URL:</strong> <a [href]="urlInfo.shortUrl" target="_blank">{{ urlInfo.shortUrl }}</a></p>
+  <p><strong>Created By:</strong> {{ urlInfo.createdBy }}</p>
+  <p><strong>Created Date:</strong> {{ urlInfo.createdDate | date }}</p>
+  <button class="btn btn-secondary" (click)="onBack()">Back</button>
+</div>
