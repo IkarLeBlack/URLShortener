@@ -1,4 +1,8 @@
 <div class="urls-table-container">
+  <div class="user-info">
+    <p>{{ username  }}</p>
+  </div>
+
   <h2>Short URLs Table</h2>
   <button class="btn btn-info" (click)="onGoToAlgorithmPage()">About view</button>
   <button *ngIf="isAuthorized" class="btn btn-success" (click)="onAddUrl()">

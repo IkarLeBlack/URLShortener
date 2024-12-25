@@ -2,9 +2,10 @@
 using URL_Shortener.Services;
 using URL_Shortener.Models;
 using System.Text;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
 using URL_Shortener.Hub;
+using System.Text.Json;
+
 
 namespace URL_Shortener.Controllers
 {
@@ -15,12 +16,14 @@ namespace URL_Shortener.Controllers
         private readonly UrlService _urlService;
         private readonly UserService _userService;
         private readonly IHubContext<UrlUpdateHub> _hubContext;
+        private readonly IHttpClientFactory _httpClientFactory;
 
-        public UrlController(UrlService urlService, UserService userService, IHubContext<UrlUpdateHub> hubContext)
+        public UrlController(UrlService urlService, UserService userService, IHubContext<UrlUpdateHub> hubContext, IHttpClientFactory httpClientFactory)
         {
             _urlService = urlService;
             _userService = userService;
             _hubContext = hubContext;
+            _httpClientFactory = httpClientFactory;
         }
         
         [HttpPost("create")]
@@ -32,7 +35,7 @@ namespace URL_Shortener.Controllers
             }
 
             string decodedUrl = DecodeUrl(createUrlDto.HashedUrl);
-            string shortUrl = GenerateShortUrl(decodedUrl);
+            string shortUrl = await GetShortUrlFromApi(decodedUrl);
 
 
             var user = await _userService.GetUserByUsernameAsync(createUrlDto.Username);
@@ -61,7 +64,51 @@ namespace URL_Shortener.Controllers
             return Ok(new { shortUrl = shortUrl });
         }
 
-        
+        private async Task<string> GetShortUrlFromApi(string originalUrl)
+        {
+
+            var client = _httpClientFactory.CreateClient();
+
+
+            var requestData = new
+            {
+                long_url = originalUrl,
+                domain = "https://t.ly", 
+                description = "Shortened URL for " + originalUrl,
+                public_stats = true 
+            };
+
+
+            var requestContent = new StringContent(
+                JsonSerializer.Serialize(requestData),
+                Encoding.UTF8,
+                "application/json"
+            );
+
+
+            client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "da0uWlSLwpODX8M06ELmitKoakMjVIYzPD53XLjhCPzu5iBRFcbvBOWUe24a");
+            client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+
+
+            var response = await client.PostAsync("https://api.t.ly/api/v1/link/shorten", requestContent);
+
+
+            if (!response.IsSuccessStatusCode)
+            {
+
+                var errorMessage = await response.Content.ReadAsStringAsync();
+                throw new Exception($"Ошибка API: {response.StatusCode} - {errorMessage}");
+            }
+
+
+            var responseContent = await response.Content.ReadAsStringAsync();
+
+
+            var result = JsonSerializer.Deserialize<TlyApiResponse>(responseContent);
+
+            
+            return result?.ShortUrl;
+        }
         
         public string DecodeUrl(string hashedUrl)
         {

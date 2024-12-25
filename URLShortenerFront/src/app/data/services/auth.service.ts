@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { tap, catchError } from 'rxjs/operators';
 import { UserModel } from '../interfaces/user.interface';
+import {RoleModel} from '../interfaces/role.interface';
 
 @Injectable({
   providedIn: 'root',
@@ -58,4 +59,12 @@ export class AuthService {
     const user = this.getCurrentUser();
     return user ? user.id : null;
   }
+
+  getUsername(): string | null {
+    return this.currentUser?.username || null;
+  }
+
+
+
+
 }

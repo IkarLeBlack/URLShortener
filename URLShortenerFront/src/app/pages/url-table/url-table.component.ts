@@ -25,6 +25,8 @@ export class ShortUrlsTableComponent implements OnInit, OnDestroy {
   private signalRSubscription: Subscription | null = null;
   public currentUserId: number | null = null;
   public isAdmin: boolean = false;
+  public username: string | null = null;
+  public userRole: string | null = null;
 
 
 
@@ -39,6 +41,7 @@ export class ShortUrlsTableComponent implements OnInit, OnDestroy {
     if (Notification.permission !== 'granted') {
       Notification.requestPermission();
     }
+    this.username = this.authService.getUsername();
     this.isAuthorized = this.authService.isAuthenticated();
     this.loadUrls();
     this.currentUserId = this.authService.getCurrentUserId();
@@ -49,6 +52,7 @@ export class ShortUrlsTableComponent implements OnInit, OnDestroy {
 
     this.signalrService.startConnection();
   }
+
 
   ngOnDestroy() {
     if (this.signalRSubscription) {

@@ -5,7 +5,6 @@ import { LoginComponent } from './pages/login/login.component';
 import { ShortUrlsTableComponent } from './pages/url-table/url-table.component';
 import { ShortUrlInfoComponent } from './pages/url-info/url-info.component';
 import { AboutComponent } from './pages/about/about.component';
-import { AdminGuard } from './data/guards/admin.guard';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },

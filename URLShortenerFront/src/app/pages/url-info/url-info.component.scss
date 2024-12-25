@@ -1,20 +1,59 @@
+
 .url-info-container {
+  margin: 20px auto;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: white;
-  margin: 20px;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
 }
 
-.url-info-container button {
-  background: red;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
 
 .url-info-container h2 {
-  margin-top: 0;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+
+.url-info-container p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.url-info-container p strong {
+  color: #333;
+}
+
+
+.url-info-container a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.url-info-container a:hover {
+  color: #0056b3;
+}
+
+
+.url-info-container .btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #6c757d;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.url-info-container .btn:hover {
+  background-color: #5a6268;
 }

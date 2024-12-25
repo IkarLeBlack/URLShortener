@@ -1,316 +1,244 @@
 {
   "Files": [
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\3rdpartylicenses.txt",
-      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\browser\\chunk-2WLGRCUQ.js",
-      "PackagePath": "staticwebassets\\browser\\chunk-2WLGRCUQ.js"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\browser\\chunk-V64IRKZS.js",
-      "PackagePath": "staticwebassets\\browser\\chunk-V64IRKZS.js"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\browser\\favicon.ico",
-      "PackagePath": "staticwebassets\\browser\\favicon.ico"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\browser\\index.html",
-      "PackagePath": "staticwebassets\\browser\\index.html"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\browser\\main-MTZLV5QO.js",
-      "PackagePath": "staticwebassets\\browser\\main-MTZLV5QO.js"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\browser\\polyfills-FFHMD2TL.js",
-      "PackagePath": "staticwebassets\\browser\\polyfills-FFHMD2TL.js"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\browser\\styles-WTYLBI33.css",
-      "PackagePath": "staticwebassets\\browser\\styles-WTYLBI33.css"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\css\\site.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\favicon.ico",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\js\\site.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\prerendered-routes.json",
-      "PackagePath": "staticwebassets\\prerendered-routes.json"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\urlshortner\\3rdpartylicenses.txt",
-      "PackagePath": "staticwebassets\\urlshortner\\3rdpartylicenses.txt"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\urlshortner\\browser\\chunk-2WLGRCUQ.js",
-      "PackagePath": "staticwebassets\\urlshortner\\browser\\chunk-2WLGRCUQ.js"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\urlshortner\\browser\\chunk-V64IRKZS.js",
-      "PackagePath": "staticwebassets\\urlshortner\\browser\\chunk-V64IRKZS.js"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\urlshortner\\browser\\favicon.ico",
-      "PackagePath": "staticwebassets\\urlshortner\\browser\\favicon.ico"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\urlshortner\\browser\\index.html",
-      "PackagePath": "staticwebassets\\urlshortner\\browser\\index.html"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\urlshortner\\browser\\main-MTZLV5QO.js",
-      "PackagePath": "staticwebassets\\urlshortner\\browser\\main-MTZLV5QO.js"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\urlshortner\\browser\\polyfills-FFHMD2TL.js",
-      "PackagePath": "staticwebassets\\urlshortner\\browser\\polyfills-FFHMD2TL.js"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\urlshortner\\browser\\styles-WTYLBI33.css",
-      "PackagePath": "staticwebassets\\urlshortner\\browser\\styles-WTYLBI33.css"
-    },
-    {
-      "Id": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\wwwroot\\urlshortner\\prerendered-routes.json",
-      "PackagePath": "staticwebassets\\urlshortner\\prerendered-routes.json"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.UrlShortenerApp.Microsoft.AspNetCore.StaticWebAssets.props",

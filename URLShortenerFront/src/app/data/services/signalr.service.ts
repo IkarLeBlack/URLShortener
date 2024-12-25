@@ -8,8 +8,6 @@ import { Subject } from 'rxjs';
 })
 export class SignalrService {
   private hubConnection: signalR.HubConnection;
-
-  // Создаём observable для уведомления компонента об обновлении
   public updateUrls: Subject<void> = new Subject();
 
   constructor(private urlService: UrlService) {

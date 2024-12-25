@@ -5316,11 +5316,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\UrlShortenerApp.csproj",
+      "projectUniqueName": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\UrlShortenerApp.csproj",
       "projectName": "UrlShortenerApp",
-      "projectPath": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\UrlShortenerApp.csproj",
+      "projectPath": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\UrlShortenerApp.csproj",
       "packagesPath": "C:\\Users\\Ikar Le Blake\\.nuget\\packages\\",
-      "outputPath": "E:\\Project\\Test\\URL Shortener\\UrlShortenerApp\\obj\\",
+      "outputPath": "E:\\Project\\URLShortner\\URLShortenerBack\\UrlShortenerApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ikar Le Blake\\AppData\\Roaming\\NuGet\\NuGet.Config",
